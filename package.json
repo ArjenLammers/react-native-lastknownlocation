@@ -1,0 +1,43 @@
+{
+  "name": "react-native-lastknownlocation",
+  "title": "React Native Lastknownlocation",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "react-native-lastknownlocation.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-lastknownlocation.git",
+    "baseUrl": "https://github.com/github_account/react-native-lastknownlocation"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Arjen Lammers",
+    "email": "arjen.lammers@mendix.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-native": ">=0.61.0"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  },
+  "dependencies": {
+    "@react-native-community/geolocation": "^2.0.2"
+  }
+}
