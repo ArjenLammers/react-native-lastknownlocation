@@ -3,6 +3,7 @@
 package com.reactlibrary;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.PromiseImpl;
@@ -89,6 +90,7 @@ public class ReactNativeLastknownlocationModule extends ReactContextBaseJavaModu
         perms.checkPermission(Manifest.permission.ACCESS_FINE_LOCATION, new PromiseImpl(onPermissionChecked, onPermissionCheckFailed));
     }
 
+    @SuppressLint("MissingPermission")
     public void getLastLocationData(
             ReadableMap options,
             final Callback success,
