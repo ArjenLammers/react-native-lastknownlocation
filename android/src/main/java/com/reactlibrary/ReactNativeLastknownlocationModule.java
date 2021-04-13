@@ -17,7 +17,7 @@ import com.facebook.react.modules.permissions.PermissionsModule;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 
-import com.reactnativecommunity.geolocation.PositionError;
+import com.rncommunity.geolocation.PositionError;
 
 public class ReactNativeLastknownlocationModule extends ReactContextBaseJavaModule {
 
